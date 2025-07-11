@@ -14,32 +14,16 @@ export default function Menu() {
 
             <ul className="navigation clearfix">
                 <li className="dropdown"><Link href="/">Home</Link>
+                </li>
+                <li><Link href="/about-us">Nosotros</Link></li>
+                <li className="dropdown"><Link href="/service">Especialidades</Link>
+                </li>
+                <li className="dropdown"><Link href="/">Team</Link>
                     <ul>
-                        <li><Link href="/">Home Page One</Link></li>
-                        <li><Link href="/index-2">Home Page Two</Link></li>
-                        <li><Link href="/index-3">Home Page Three</Link></li>
-                        <li><Link href="/onepage">OnePage Home</Link></li>
+                        <li><Link href="/team">Our Team</Link></li>
+                        <li><Link href="/team-details">Team Details</Link></li>
                     </ul>
                 </li>
-                <li><Link href="/about-us">About Us</Link></li>
-                <li className="dropdown"><Link href="/">Services</Link>
-                    <ul>
-                        <li><Link href="/service">Our Services</Link></li>
-                        <li><Link href="/service-details">Cardiology</Link></li>
-                        <li><Link href="/service-details-2">Dental Clinic</Link></li>
-                        <li><Link href="/service-details-3">Neurosurgery</Link></li>
-                        <li><Link href="/service-details-4">Medical</Link></li>
-                        <li><Link href="/service-details-5">Pediatrics</Link></li>
-                        <li><Link href="/service-details-6">Modern Laboratory</Link></li>
-                        {/* ... (similarly for other service items) */}
-                    </ul>
-                </li>
-                     <li className="dropdown"><Link href="/">Team</Link>
-                            <ul>
-                                <li><Link href="/team">Our Team</Link></li>
-                                <li><Link href="/team-details">Team Details</Link></li>
-                            </ul>
-                        </li>
                 {/* Pages */}
                 <li className="dropdown"><Link href="/">Pages</Link>
                     <ul>
@@ -58,7 +42,7 @@ export default function Menu() {
                         <li><Link href="/gallery">Gallery</Link></li>
                         <li><Link href="/appointment">Make Appointment</Link></li>
                         <li><Link href="/error-page">Page Not Found</Link></li>
-                        
+
 
                         {/* ... (similarly for other page items) */}
                     </ul>

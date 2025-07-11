@@ -44,25 +44,12 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                 <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}>
                   <Link href="/" >Home</Link>
                   <ul style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
-                    <li><Link href="/"onClick={handleMobileMenu}>Home Page One</Link></li>
-                    <li><Link href="/index-2" onClick={handleMobileMenu}>Home Page Two</Link></li>
-                    <li><Link href="/index-3" onClick={handleMobileMenu}>Home Page Three</Link></li>
-                    <li><Link href="/onepage" onClick={handleMobileMenu}>One Page Home</Link></li>
                   </ul>
                   <div className={isActive.key == 1 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(1)}><span className="fa fa-angle-right" /></div>
                 </li>
                 <li><Link href="/about-us">About</Link></li>
                 <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}>
-                  <Link href="/#">Services</Link>
-                  <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
-                    <li><Link href="/service" onClick={handleMobileMenu}>Our Services</Link></li>
-                    <li><Link href="/service-details" onClick={handleMobileMenu}>Cardioligy</Link></li>
-                                        <li><Link href="/service-details-2" onClick={handleMobileMenu}>Dental Clinic</Link></li>
-                                        <li><Link href="/service-details-3" onClick={handleMobileMenu}>NeuroSergery</Link></li>
-                                        <li><Link href="/service-details-4" onClick={handleMobileMenu}>Medical</Link></li>
-                                        <li><Link href="/service-details-5" onClick={handleMobileMenu}>Pediatrics</Link></li>
-                                        <li><Link href="/service-details-6" onClick={handleMobileMenu}>Modern Laboratory</Link></li>
-                  </ul>
+                  <Link href="/service">Especialidades</Link>
                   <div className={isActive.key == 2 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></div>
                 </li>
                 
@@ -101,20 +88,20 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
             </div>
           </div>
           <div className="contact-info">
-          <h4>Contact Info</h4>
+          <h4>Contacto</h4>
           <ul>
-            <li>Chicago 12, Melborne City, USA</li>
-            <li><Link href="tel:+8801682648101">+88 01682648101</Link></li>
-            <li><Link href="mailto:info@example.com">info@example.com</Link></li>
+            <li>Jr. el Porvenir N° 200, Rodríguez de Mendoza</li>
+            <li><Link href="tel:+51 974603071">+51 974603071</Link></li>
+            <li><Link href="mailto:info@example.com">nutrimed@peru.com</Link></li>
           </ul>
         </div>
           {/*Social Links*/}
           <div className="social-links">
           <ul className="clearfix">
             <li><Link href="/"><span className="fab fa-twitter"></span></Link></li>
-            <li><Link href="/"><span className="fab fa-facebook-square"></span></Link></li>
+            <li><Link href="https://www.facebook.com/profile.php?id=100090713952617" target="_blank"><span className="fab fa-facebook-square"></span></Link></li>
             <li><Link href="/"><span className="fab fa-pinterest-p"></span></Link></li>
-            <li><Link href="/"><span className="fab fa-instagram"></span></Link></li>
+            <li><Link href="https://www.instagram.com/nutrimedrodriguezde/" target="_blank"><span className="fab fa-instagram"></span></Link></li>
             <li><Link href="/l"><span className="fab fa-youtube"></span></Link></li>
           </ul>
         </div>

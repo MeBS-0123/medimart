@@ -23,16 +23,16 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                                     <Link href="/"><img src="assets/images/logo.png" alt="" /></Link>
                                 </div>
                                 <div className="content-box">
-                                    <h4>About Us</h4>
+                                    <h4>Sobre Nosotros</h4>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi</p>
                                     <p>Research oriented solutions for Data Science and Machine Learning business needs.</p>
-                                    <Link href="about.html" className="theme-btn btn-one"><span>About Us</span></Link>
+                                    <Link href="/about-us" className="theme-btn btn-one"><span>About Us</span></Link>
                                 </div>
                                 <div className="contact-info">
                                     <h4>Contact Info</h4>
                                     <ul>
-                                        <li>Chicago 12, Melborne City, USA</li>
-                                        <li><Link href="tel:+8801682648101">+88 01682648101</Link></li>
+                                        <li>Jr. el Porvenir N° 200, Rodríguez de Mendoza</li>
+                                        <li><Link href="tel:+51 974603071">+51 974603071</Link></li>
                                         <li><Link href="mailto:info@example.com">info@example.com</Link></li>
                                     </ul>
                                 </div>
