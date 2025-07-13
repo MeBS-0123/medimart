@@ -11,8 +11,8 @@ export default function feature() {
           <div className="feature-block-one">
             <div className="inner-box">
               <div className="icon-box"><i className="icon-9"></i></div>
-              <h3><Link href="/">Qualified Doctor</Link></h3>
-              <p>Lorem ipsum dolor sit amet ctetur adipiscing</p>
+              <h3><Link href="/">Médicos Calificados</Link></h3>
+              <p>Contamos con especialistas con amplia experiencia y vocación de servicio.</p>
             </div>
           </div>
         </div>
@@ -20,8 +20,8 @@ export default function feature() {
           <div className="feature-block-one">
             <div className="inner-box">
               <div className="icon-box"><i className="icon-10"></i></div>
-              <h3><Link href="/">Emergency Help</Link></h3>
-              <p>Lorem ipsum dolor sit amet ctetur adipiscing</p>
+              <h3><Link href="/">Atención de Urgencias</Link></h3>
+              <p>Te atendemos de forma rápida y segura ante cualquier emergencia.</p>
             </div>
           </div>
         </div>
@@ -29,8 +29,8 @@ export default function feature() {
           <div className="feature-block-one">
             <div className="inner-box">
               <div className="icon-box"><i className="icon-11"></i></div>
-              <h3><Link href="/">Modern Equipment</Link></h3>
-              <p>Lorem ipsum dolor sit amet ctetur adipiscing</p>
+              <h3><Link href="/">Equipos Modernos</Link></h3>
+              <p>Tecnología de última generación para un diagnóstico preciso.</p>
             </div>
           </div>
         </div>
@@ -38,8 +38,8 @@ export default function feature() {
           <div className="feature-block-one">
             <div className="inner-box">
               <div className="icon-box"><i className="icon-12"></i></div>
-              <h3><Link href="/">Family Medicine</Link></h3>
-              <p>Lorem ipsum dolor sit amet ctetur adipiscing</p>
+              <h3><Link href="/">Medicina Familiar</Link></h3>
+              <p>Cuidamos de cada miembro de tu familia con atención integral.</p>
             </div>
           </div>
         </div>

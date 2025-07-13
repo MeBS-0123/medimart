@@ -1,4 +1,4 @@
-// File: C:\Users\ADELMO\Downloads\medimart pack\medimart\app\layout.js
+// File: C:\Users\romul\OneDrive\Documentos\Nutrimed Page\medimart\app\layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

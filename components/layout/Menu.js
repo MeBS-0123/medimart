@@ -13,7 +13,7 @@ export default function Menu() {
             </ul> */}
 
             <ul className="navigation clearfix">
-                <li className="dropdown"><Link href="/">Home</Link>
+                <li className="dropdown"><Link href="/">Inicio</Link>
                 </li>
                 <li><Link href="/about-us">Nosotros</Link></li>
                 <li className="dropdown"><Link href="/service">Especialidades</Link>

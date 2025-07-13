@@ -112,10 +112,10 @@
 
 
 :root{
-  --theme-color: #1D3CE2;
+  --theme-color: #139ecd;
   --secondary-color: #F9313B;
   --pink-color: #FFC0CB;
-  --violet-color: #1D3CE2;
+  --violet-color: #139ecd;
   --crimson-color: #DC143C;
   --orange-color: #FFA500;
   --text-color: #676767;
@@ -464,7 +464,7 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #0E1136;
+  background: #26505E;
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   transform-origin: center;
   transform: scale(0) rotate(0);
@@ -482,7 +482,7 @@ img {
 }
 
 .theme-btn:after {
-  background: #0E1D40;
+  background: #26505E;
 }
 
 .theme-btn span{
@@ -843,7 +843,7 @@ img {
 .header-top{
   position: relative;
   width: 100%;
-  background: #0E1136;
+  background: #1c3b46;
   padding: 15.5px 0px;
 }
 

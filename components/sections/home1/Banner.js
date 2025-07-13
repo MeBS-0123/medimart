@@ -14,11 +14,11 @@ export default function Banner() {
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-12 col-sm-12 content-column">
             <div className="content-box">
-              <span className="upper-text">Highest level of service you can find</span>
-              <h2>Take <span>Care of Your</span> Health Now.</h2>
-              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+              <span className="upper-text">Confía tu salud a expertos</span>
+              <h2>¡Cuidando tu <span>Salud </span>  y la de tu <span>Familia</span>!</h2>
+              <p>Somos tu centro de salud de confianza. En Nutrimed cuidamos de ti con compromiso, calidad y calidez humana.</p>
               <div className="btn-box">
-                <Link href="/#" className="theme-btn btn-two"><span>Explore Our Service</span></Link>
+                <Link href="/#" className="theme-btn btn-two"><span>Explora Nuestros Servicios</span></Link>
               </div>
             </div>
           </div>
