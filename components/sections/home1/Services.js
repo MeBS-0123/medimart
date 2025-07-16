@@ -12,8 +12,8 @@ export default function service() {
       </div>
       <div className="auto-container">
         <div className="sec-title mb_50 centred">
-          <span className="sub-title">Nuestros Servicos</span>
-          <h2>We Offer For You Medical & <br />Saving Lives</h2>
+          <span className="sub-title">Nuestros Ambientes</span>
+          <h2>Cuidamos tu salud con especialidades  <br />médicas y tecnología avanzada </h2>
         </div>
         <div className="row clearfix">
           <div className="col-lg-4 col-md-6 col-sm-12 service-block">
@@ -21,11 +21,11 @@ export default function service() {
               <div className="inner-box">
                 <div className="image-box">
                   <figure className="image"><Link href="service-details-3"><img src="assets/images/service/service-1.jpg" alt="" /></Link></figure>
-                  <div className="icon-box"><i className="icon-15"></i></div>
+                  <div className="icon-box"><i className="icon-16"></i></div>
                 </div>
                 <div className="lower-content">
-                  <h3><Link href="service-details-3">Neurosurgery</Link></h3>
-                  <p>Amet minim mollit non deserunt ullamco aliqua dolor do amet sint.</p>
+                  <h3><Link href="service-details-3">Laboratorio Clínico</Link></h3>
+                  <p>Contamos con un laboratorio moderno para análisis precisos y resultados confiables en poco tiempo.</p>
                 </div>
               </div>
             </div>
@@ -35,11 +35,11 @@ export default function service() {
               <div className="inner-box">
                 <div className="image-box">
                   <figure className="image"><Link href="service-details-6"><img src="assets/images/service/service-2.jpg" alt="" /></Link></figure>
-                  <div className="icon-box"><i className="icon-16"></i></div>
+                  <div className="icon-box"><i className="icon-33"></i></div>
                 </div>
                 <div className="lower-content">
-                  <h3><Link href="service-details-6">Modern Laboratory</Link></h3>
-                  <p>Amet minim mollit non deserunt ullamco aliqua dolor do amet sint.</p>
+                  <h3><Link href="service-details-6">Sala de Rayos X</Link></h3>
+                  <p>Equipada con tecnología digital para diagnósticos por imagen rápidos y seguros.</p>
                 </div>
               </div>
             </div>
@@ -49,11 +49,11 @@ export default function service() {
               <div className="inner-box">
                 <div className="image-box">
                   <figure className="image"><Link href="service-details"><img src="assets/images/service/service-3.jpg" alt="" /></Link></figure>
-                  <div className="icon-box"><i className="icon-17"></i></div>
+                  <div className="icon-box"><i className="icon-21"></i></div>
                 </div>
                 <div className="lower-content">
-                  <h3><Link href="service-details">Experienced Doctors</Link></h3>
-                  <p>Amet minim mollit non deserunt ullamco aliqua dolor do amet sint.</p>
+                  <h3><Link href="service-details"> Farmacia Interna</Link></h3>
+                  <p>Adquiere tus medicamentos de forma rápida y segura, directamente dentro de la clínica.D</p>
                 </div>
               </div>
             </div>

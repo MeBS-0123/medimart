@@ -19,9 +19,9 @@ export default function Video() {
                             <span className="border-animation border-3"></span>
           </a>
           </div>
-          <h2>Online Consultations With <br />Qualified Doctors</h2>
+          <h2>Conoce Nutrimed:  <br />Tu Clínica de Confianza</h2>
           <div className="btn-box">
-            <Link href="/#" className="theme-btn btn-one"><span>Make an Appointment</span></Link>
+            <Link href="/#" className="theme-btn btn-one"><span>Conócenos</span></Link>
           </div>
         </div>
       </div>

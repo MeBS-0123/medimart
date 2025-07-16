@@ -12,8 +12,8 @@ export default function Testimonial() {
           <div className="col-xl-6 col-lg-12 col-md-12 offset-xl-6 content-column">
             <div className="content-box p_relative ml_45">
               <div className="sec-title mb_50">
-                <span className="sub-title">Testimonials</span>
-                <h2>What Our Client Say About Medimart</h2>
+                <span className="sub-title">Testimonios</span>
+                <h2>Lo Que Nuestros Pacientes Dicen Sobre Nutrimed</h2>
               </div>
                     <div className="content-box">
                         <TestimonialSlider1 />                        

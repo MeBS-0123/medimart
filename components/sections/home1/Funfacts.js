@@ -15,7 +15,7 @@ export default function Funfacts() {
                                 <div className="count-outer count-box">
                                     <CounterUp end={75} /><span>+</span>
                                 </div>
-                                <span className="text">Expert Doctors</span>
+                                <span className="text">Doctores Especialistas</span>
                                 </div>
                             </div>
                         </div>
@@ -26,7 +26,7 @@ export default function Funfacts() {
                                 <div className="count-outer count-box">
                                     <CounterUp end={7} /><span>k</span>
                                 </div>
-                                <span className="text">Happy Patients</span>
+                                <span className="text">Pacientes Satisfechos</span>
                                 </div>
                             </div>
                         </div>
@@ -37,7 +37,7 @@ export default function Funfacts() {
                                 <div className="count-outer count-box">
                                     <CounterUp end={850} />
                                 </div>
-                                <span className="text">Modern Rooms</span>
+                                <span className="text">Consultorios Equipados</span>
                                 </div>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ export default function Funfacts() {
                                 <div className="count-outer count-box">
                                     <CounterUp end={15} />
                                 </div>
-                                <span className="text">Awards Win</span>
+                                <span className="text">Reconocimientos / Premios</span>
                                 </div>
                             </div>
                         </div>

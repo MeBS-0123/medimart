@@ -60,7 +60,8 @@ export default function TestimonialSlider1() {
                 <div className="testimonial-block-one">
                   <div className="inner-box">
                     <div className="icon-box"><i className="icon-23"></i></div>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia coequat duis enim velit mollit.</p>
+                    <p>"Desde que llegué a Nutrimed, me sentí en buenas manos. El personal fue muy amable, y el médico resolvió todas mis dudas. 
+                      ¡Gracias por su excelente atención!"</p>
                     <div className="author-box">
                       <figure className="author-thumb"><img src="assets/images/resource/testimonial-1.png" alt="" /></figure>
                       <ul className="rating clearfix">
@@ -70,8 +71,8 @@ export default function TestimonialSlider1() {
                         <li><i className="fas fa-star"></i></li>
                         <li><i className="far fa-star"></i></li>
                       </ul>
-                      <h3>Robert Fox</h3>
-                      <span className="designation">Dog Trainer</span>
+                      <h3>Ana Morales</h3>
+                      <span className="designation">Paciente de Ginecologia</span>
                     </div>
                   </div>
                 </div>
@@ -80,7 +81,8 @@ export default function TestimonialSlider1() {
                 <div className="testimonial-block-one">
                   <div className="inner-box">
                     <div className="icon-box"><i className="icon-23"></i></div>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia coequat duis enim velit mollit.</p>
+                    <p>“Mi mamá necesitaba una atención urgente y en Nutrimed la recibieron con total profesionalismo. Nos explicaron todo con claridad y 
+                      el trato fue muy humano. Volvería sin dudar.”</p>
                     <div className="author-box">
                       <figure className="author-thumb"><img src="assets/images/resource/testimonial-1.png" alt="" /></figure>
                       <ul className="rating clearfix">
@@ -90,8 +92,8 @@ export default function TestimonialSlider1() {
                         <li><i className="fas fa-star"></i></li>
                         <li><i className="far fa-star"></i></li>
                       </ul>
-                      <h3>Robert Fox</h3>
-                      <span className="designation">Dog Trainer</span>
+                      <h3>Carlos Herrera</h3>
+                      <span className="designation">Hijo de paciente</span>
                     </div>
                   </div>
                 </div>
@@ -100,7 +102,8 @@ export default function TestimonialSlider1() {
                 <div className="testimonial-block-one">
                   <div className="inner-box">
                     <div className="icon-box"><i className="icon-23"></i></div>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia coequat duis enim velit mollit.</p>
+                    <p>“Me atendí en el laboratorio clínico y quedé impresionada con la rapidez y limpieza del lugar. 
+                      En menos de una hora tenía mis resultados. 100% recomendados.”</p>
                     <div className="author-box">
                       <figure className="author-thumb"><img src="assets/images/resource/testimonial-1.png" alt="" /></figure>
                       <ul className="rating clearfix">
@@ -108,10 +111,10 @@ export default function TestimonialSlider1() {
                         <li><i className="fas fa-star"></i></li>
                         <li><i className="fas fa-star"></i></li>
                         <li><i className="fas fa-star"></i></li>
-                        <li><i className="far fa-star"></i></li>
+                        <li><i className="fas fa-star"></i></li>
                       </ul>
-                      <h3>Robert Fox</h3>
-                      <span className="designation">Dog Trainer</span>
+                      <h3>Lucía Campos</h3>
+                      <span className="designation">Paciente</span>
                     </div>
                   </div>
                 </div>
@@ -120,7 +123,8 @@ export default function TestimonialSlider1() {
                 <div className="testimonial-block-one">
                   <div className="inner-box">
                     <div className="icon-box"><i className="icon-23"></i></div>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia coequat duis enim velit mollit.</p>
+                    <p>“Agendé mi cita por WhatsApp y todo el proceso fue muy fácil. Desde que llegué, me hicieron sentir tranquila.
+                       El doctor fue muy atento y claro en su diagnóstico.”</p>
                     <div className="author-box">
                       <figure className="author-thumb"><img src="assets/images/resource/testimonial-1.png" alt="" /></figure>
                       <ul className="rating clearfix">
@@ -130,8 +134,8 @@ export default function TestimonialSlider1() {
                         <li><i className="fas fa-star"></i></li>
                         <li><i className="far fa-star"></i></li>
                       </ul>
-                      <h3>Robert Fox</h3>
-                      <span className="designation">Dog Trainer</span>
+                      <h3>Valeria Gutiérrez</h3>
+                      <span className="designation">Paciente</span>
                     </div>
                   </div>
                 </div>
@@ -140,18 +144,18 @@ export default function TestimonialSlider1() {
                 <div className="testimonial-block-one">
                   <div className="inner-box">
                     <div className="icon-box"><i className="icon-23"></i></div>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia coequat duis enim velit mollit.</p>
+                    <p>"Me hicieron una ecografía y el doctor fue muy paciente explicándome todo. El ambiente era limpio, tranquilo y me sentí segura en todo momento"</p>
                     <div className="author-box">
                       <figure className="author-thumb"><img src="assets/images/resource/testimonial-1.png" alt="" /></figure>
                       <ul className="rating clearfix">
                         <li><i className="fas fa-star"></i></li>
                         <li><i className="fas fa-star"></i></li>
                         <li><i className="fas fa-star"></i></li>
-                        <li><i className="fas fa-star"></i></li>
+                        <li><i className="far fa-star"></i></li>
                         <li><i className="far fa-star"></i></li>
                       </ul>
-                      <h3>Robert Fox</h3>
-                      <span className="designation">Dog Trainer</span>
+                      <h3>Mariela Ríos</h3>
+                      <span className="designation">Paciente prenatal</span>
                     </div>
                   </div>
                 </div>
@@ -160,7 +164,7 @@ export default function TestimonialSlider1() {
                 <div className="testimonial-block-one">
                   <div className="inner-box">
                     <div className="icon-box"><i className="icon-23"></i></div>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia coequat duis enim velit mollit.</p>
+                    <p>Soy adulto mayor y me sorprendió la atención tan respetuosa que recibí. Desde la recepción hasta el médico, todos fueron muy amables y considerados</p>
                     <div className="author-box">
                       <figure className="author-thumb"><img src="assets/images/resource/testimonial-1.png" alt="" /></figure>
                       <ul className="rating clearfix">
@@ -168,10 +172,10 @@ export default function TestimonialSlider1() {
                         <li><i className="fas fa-star"></i></li>
                         <li><i className="fas fa-star"></i></li>
                         <li><i className="fas fa-star"></i></li>
-                        <li><i className="far fa-star"></i></li>
+                        <li><i className="fas fa-star"></i></li>
                       </ul>
-                      <h3>Robert Fox</h3>
-                      <span className="designation">Dog Trainer</span>
+                      <h3>Eduardo Gálvez</h3>
+                      <span className="designation">Paciente</span>
                     </div>
                   </div>
                 </div>
