@@ -30,7 +30,7 @@ export default function feature() {
             <div className="inner-box">
               <div className="icon-box"><i className="icon-11"></i></div>
               <h3><Link href="/">Equipos Modernos</Link></h3>
-              <p>Tecnología de última generación para un diagnóstico preciso.</p>
+              <p>Tecnología de última generación para un diagnóstico y tratamientos más efectivos.</p>
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@ export default function feature() {
             <div className="inner-box">
               <div className="icon-box"><i className="icon-12"></i></div>
               <h3><Link href="/">Medicina Familiar</Link></h3>
-              <p>Cuidamos de cada miembro de tu familia con atención integral.</p>
+              <p>Cuidamos de cada miembro de tu familia con atención integral, confianza y compromiso.</p>
             </div>
           </div>
         </div>

@@ -15,7 +15,7 @@ export default function Footer1() {
             <div className="row clearfix">
               <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                 <div className="footer-widget logo-widget">
-                  <figure className="footer-logo"><Link href="/"><img src="assets/images/footer-logo.png" alt="" /></Link></figure>
+                  <figure className="footer-logo"><Link href="/"><img src="assets/images/logoB.png" alt="" /></Link></figure>
                   <p>Lorem ipsum dolor sit amet constetur adipiscing elit. Etiam eu turpis mostie dictum est a, mattis tellus.</p>
                   <ul className="social-links clearfix">
                     <li><Link href="https://www.instagram.com/nutrimedrodriguezde?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i className="icon-4"></i></Link></li>
@@ -26,12 +26,12 @@ export default function Footer1() {
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
-                <div className="footer-widget links-widget ml_110">
+                <div className="footer-widget links-widget ml_90">
                   <div className="widget-title">
                     <h3>Nutrimed</h3>
                   </div>
                   <div className="widget-content">
-                    <ul className="links-list clearfix" style={{ color: "#fff !important"}}>
+                    <ul className="links-list clearfix" style={{ color: "#fff !important" }}>
                       <li><Link href="/">Inicio</Link></li>
                       <li><Link href="/about">Nosotros</Link></li>
                       <li><Link href="/especialidades">Especialidades</Link></li>
@@ -44,19 +44,32 @@ export default function Footer1() {
               </div>
 
               <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
-                <div className="footer-widget links-widget ml_55">
+                <div className="footer-widget links-widget ml_10 mr_55">
                   <div className="widget-title">
                     <h3>Horarios</h3>
                   </div>
                   <div className="widget-content">
-                    <ul className="links-list clearfix">
-                      <li>Domingo <span style={{ float: "right" }}>7:30 am - 7:00 pm</span></li>
-                      <li>Lunes <span style={{ float: "right" }}>7:30 am - 7:00 pm</span></li>
-                      <li>Martes <span style={{ float: "right" }}>7:30 am - 7:00 pm</span></li>
-                      <li>Miércoles <span style={{ float: "right" }}>7:30 am - 7:00 pm</span></li>
-                      <li>Jueves <span style={{ float: "right" }}>7:30 am - 7:00 pm</span></li>
-                      <li>Viernes <span style={{ float: "right" }}>7:30 am - 6:00 pm</span></li>
+                    <ul className="list-unstyled text-white">
+                      <li className="d-flex justify-content-between">
+                        <span>Domingo</span><span>7:30 am - 7:00 pm</span>
+                      </li>
+                      <li className="d-flex justify-content-between">
+                        <span>Lunes</span><span>7:30 am - 7:00 pm</span>
+                      </li>
+                      <li className="d-flex justify-content-between">
+                        <span>Martes</span><span>7:30 am - 7:00 pm</span>
+                      </li>
+                      <li className="d-flex justify-content-between">
+                        <span>Miércoles</span><span>7:30 am - 7:00 pm</span>
+                      </li>
+                      <li className="d-flex justify-content-between">
+                        <span>Jueves</span><span>7:30 am - 7:00 pm</span>
+                      </li>
+                      <li className="d-flex justify-content-between">
+                        <span>Viernes</span><span>7:30 am - 6:00 pm</span>
+                      </li>
                     </ul>
+
                   </div>
                 </div>
               </div>

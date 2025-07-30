@@ -1947,7 +1947,7 @@ button.ltr {
 
 .main-footer{
   position: relative;
-  background: #0E1136;
+  background: #26505E;
 }
 
 .main-footer .widget-section{
@@ -2089,7 +2089,7 @@ button.ltr {
   bottom: -223px;
   width: 544px;
   height: 544px;
-  background: #181B3E;
+  background: #306577;
   border-radius: 50%;
   -webkit-animation: zoom-fade 8s infinite linear;
   animation: zoom-fade 8s infinite linear;

@@ -10,7 +10,7 @@
 .video-section .bg-layer:before{
   position: absolute;
   content: '';
-  background: #0E1136;
+  background: #ffffff;
   width: 100%;
   height: 100%;
   left: 0px;
@@ -49,7 +49,7 @@
   display: block;
   font-size: 64px;
   line-height: 75px;
-  color: #fff;
+  color: #000;
   font-weight: 700;
   margin-bottom: 50px;
 }
@@ -57,7 +57,7 @@
 .video-section .inner-box .shape{
   position: absolute;
   right: 185px;
-  bottom: 0px;
+  bottom: -30px;
   width: 278px;
   height: 139px;
   background-repeat: no-repeat;
