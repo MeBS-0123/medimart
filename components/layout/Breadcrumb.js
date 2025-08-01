@@ -16,7 +16,7 @@ export default function Breadcrumb({ breadcrumbTitle }) {
                     <div className="content-box">
                         <h1>{breadcrumbTitle}</h1>
                         <ul className="bread-crumb clearfix">
-                            <li><Link href="/">Home</Link></li>
+                            <li><Link href="/">Inicio</Link></li>
                             <li>{breadcrumbTitle}</li>
                         </ul>
                     </div>

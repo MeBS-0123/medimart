@@ -23,7 +23,7 @@ export default function service() {
     }
     return (
         <>
-            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Service Details">
+            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Detalles de las Especialidades">
                 <div>
                     {/* service-section */}
                     <section className="service-details pt_120 pb_110">
@@ -33,7 +33,7 @@ export default function service() {
                                     <div className="default-sidebar service-sidebar mr_15">
                                         <div className="sidebar-widget category-widget">
                                             <div className="widget-title">
-                                                <h3>Categories</h3>
+                                                <h3>Categorías</h3>
                                             </div>
                                             <div className="widget-content">
                                                 <ul className="category-list clearfix">
@@ -118,7 +118,7 @@ export default function service() {
                                                     </div>
                                                 </div>
                                                 
-                                                <div style={{
+                                                {/* <div style={{
                                                     position: 'fixed',
                                                     bottom: '20px',
                                                     right: '80px', // Ajusta si el botón azul está muy cerca
@@ -146,7 +146,7 @@ export default function service() {
                                                         <i className="fab fa-whatsapp" style={{ fontSize: '16px' }}></i>
                                                         <span>Reservar</span>
                                                     </a>
-                                                </div>
+                                                </div> */}
 
                                             </div>
                                         </div>
@@ -159,7 +159,7 @@ export default function service() {
                     </section>
                     {/* service-section end */}
                     {/* subscibe */}
-                    <section className="subscribe-section">
+                    {/* <section className="subscribe-section">
                         <div className="auto-container">
                             <div className="inner-container">
                                 <div className="row align-items-center">
@@ -187,7 +187,7 @@ export default function service() {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
                     {/* subscibe end */}
                 </div>
 

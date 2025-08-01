@@ -60,50 +60,7 @@ export default function TestimonialSlider1() {
           <div className="testimonial-block-one">
             <div className="inner-box">
               <div className="icon-box"><i className="icon-23"></i></div>
-              <p>"Desde que llegué a Nutrimed, me sentí en buenas manos. El personal fue muy amable, y el médico resolvió todas mis dudas.
-                ¡Gracias por su excelente atención!"</p>
-              <div className="author-box">
-                <figure className="author-thumb"><img src="assets/images/resource/testimonial-mujer.png" alt="" /></figure>
-                <ul className="rating clearfix">
-                  <li><i className="fas fa-star"></i></li>
-                  <li><i className="fas fa-star"></i></li>
-                  <li><i className="fas fa-star"></i></li>
-                  <li><i className="fas fa-star"></i></li>
-                  <li><i className="far fa-star"></i></li>
-                </ul>
-                <h3>Ana Morales</h3>
-                <span className="designation">Paciente de Ginecologia</span>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="slide-item">
-          <div className="testimonial-block-one">
-            <div className="inner-box">
-              <div className="icon-box"><i className="icon-23"></i></div>
-              <p>“Mi mamá necesitaba atención urgente y en Nutrimed la recibieron con gran profesionalismo. 
-                Nos explicaron todo con claridad y el trato fue muy humano.”</p>
-              <div className="author-box">
-                <figure className="author-thumb"><img src="assets/images/resource/testimonial-hombre.png" alt="" /></figure>
-                <ul className="rating clearfix">
-                  <li><i className="fas fa-star"></i></li>
-                  <li><i className="fas fa-star"></i></li>
-                  <li><i className="fas fa-star"></i></li>
-                  <li><i className="fas fa-star"></i></li>
-                  <li><i className="far fa-star"></i></li>
-                </ul>
-                <h3>Carlos Herrera</h3>
-                <span className="designation">Hijo de paciente</span>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="slide-item">
-          <div className="testimonial-block-one">
-            <div className="inner-box">
-              <div className="icon-box"><i className="icon-23"></i></div>
-              <p>“Me atendí en el laboratorio clínico y quedé impresionada con la rapidez y limpieza del lugar.
-                En menos de una hora tenía mis resultados. 100% recomendados.”</p>
+              <p>"Calidad, buen servicio, infraestructura de primera y profesiones altamente calificados 10/10"</p>
               <div className="author-box">
                 <figure className="author-thumb"><img src="assets/images/resource/testimonial-mujer.png" alt="" /></figure>
                 <ul className="rating clearfix">
@@ -113,7 +70,7 @@ export default function TestimonialSlider1() {
                   <li><i className="fas fa-star"></i></li>
                   <li><i className="fas fa-star"></i></li>
                 </ul>
-                <h3>Lucía Campos</h3>
+                <h3>Nayeli Rodriguez</h3>
                 <span className="designation">Paciente</span>
               </div>
             </div>
@@ -123,49 +80,8 @@ export default function TestimonialSlider1() {
           <div className="testimonial-block-one">
             <div className="inner-box">
               <div className="icon-box"><i className="icon-23"></i></div>
-              <p>“Agendé mi cita por WhatsApp y todo el proceso fue muy fácil. Desde que llegué, me hicieron sentir tranquila.
-                El doctor fue muy atento y claro en su diagnóstico.”</p>
-              <div className="author-box">
-                <figure className="author-thumb"><img src="assets/images/resource/testimonial-mujer.png" alt="" /></figure>
-                <ul className="rating clearfix">
-                  <li><i className="fas fa-star"></i></li>
-                  <li><i className="fas fa-star"></i></li>
-                  <li><i className="fas fa-star"></i></li>
-                  <li><i className="fas fa-star"></i></li>
-                  <li><i className="far fa-star"></i></li>
-                </ul>
-                <h3>Valeria Gutiérrez</h3>
-                <span className="designation">Paciente</span>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="slide-item">
-          <div className="testimonial-block-one">
-            <div className="inner-box">
-              <div className="icon-box"><i className="icon-23"></i></div>
-              <p>"Me hicieron una ecografía y el doctor fue muy paciente explicándome todo. El ambiente era limpio, tranquilo y me sentí segura en todo momento"</p>
-              <div className="author-box">
-                <figure className="author-thumb"><img src="assets/images/resource/testimonial-mujer.png" alt="" /></figure>
-                <ul className="rating clearfix">
-                  <li><i className="fas fa-star"></i></li>
-                  <li><i className="fas fa-star"></i></li>
-                  <li><i className="fas fa-star"></i></li>
-                  <li><i className="far fa-star"></i></li>
-                  <li><i className="far fa-star"></i></li>
-                </ul>
-                <h3>Mariela Ríos</h3>
-                <span className="designation">Paciente prenatal</span>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="slide-item">
-          <div className="testimonial-block-one">
-            <div className="inner-box">
-              <div className="icon-box"><i className="icon-23"></i></div>
-              <p>"Soy adulto mayor y me sorprendió la atención tan respetuosa que recibí. Desde la recepción hasta el médico,
-                todos fueron muy amables y considerados"</p>
+              <p>“Recomendado al 100%! Desde el primer momento me sentí muy cómodo, el personal fue súper amable y atento.
+                Un servicio de primera y un ambiente muy agradable”</p>
               <div className="author-box">
                 <figure className="author-thumb"><img src="assets/images/resource/testimonial-hombre.png" alt="" /></figure>
                 <ul className="rating clearfix">
@@ -175,7 +91,90 @@ export default function TestimonialSlider1() {
                   <li><i className="fas fa-star"></i></li>
                   <li><i className="fas fa-star"></i></li>
                 </ul>
-                <h3>Eduardo Gálvez</h3>
+                <h3>Escott Gutiérrez</h3>
+                <span className="designation">Paciente</span>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="slide-item">
+          <div className="testimonial-block-one">
+            <div className="inner-box">
+              <div className="icon-box"><i className="icon-23"></i></div>
+              <p>“Quiero compartir mi experiencia en Nutrimed, y solo puedo decir que es una clínica de excelencia.
+                Desde que llegué, me hicieron sentir muy bien atendido, con un trato amable y profesional por parte de todo el equipo.”</p>
+              <div className="author-box">
+                <figure className="author-thumb"><img src="assets/images/resource/testimonial-mujer.png" alt="" /></figure>
+                <ul className="rating clearfix">
+                  <li><i className="fas fa-star"></i></li>
+                  <li><i className="fas fa-star"></i></li>
+                  <li><i className="fas fa-star"></i></li>
+                  <li><i className="fas fa-star"></i></li>
+                  <li><i className="fas fa-star"></i></li>
+                </ul>
+                <h3>Nilton Bastidas</h3>
+                <span className="designation">Paciente</span>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="slide-item">
+          <div className="testimonial-block-one">
+            <div className="inner-box">
+              <div className="icon-box"><i className="icon-23"></i></div>
+              <p>“La atención del personal muy buena por parte de los enfermeros como de los doctores,
+                sobre todo cuenta con un ambiente cálido y acogedor. Recomendado”</p>
+              <div className="author-box">
+                <figure className="author-thumb"><img src="assets/images/resource/testimonial-mujer.png" alt="" /></figure>
+                <ul className="rating clearfix">
+                  <li><i className="fas fa-star"></i></li>
+                  <li><i className="fas fa-star"></i></li>
+                  <li><i className="fas fa-star"></i></li>
+                  <li><i className="fas fa-star"></i></li>
+                  <li><i className="fas fa-star"></i></li>
+                </ul>
+                <h3>Celinda Sopla</h3>
+                <span className="designation">Paciente</span>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="slide-item">
+          <div className="testimonial-block-one">
+            <div className="inner-box">
+              <div className="icon-box"><i className="icon-23"></i></div>
+              <p>"Excelente atención, personal con experiencia, ambientes limpios y ordenados. Recomendado."</p>
+              <div className="author-box">
+                <figure className="author-thumb"><img src="assets/images/resource/testimonial-hombre.png" alt="" /></figure>
+                <ul className="rating clearfix">
+                  <li><i className="fas fa-star"></i></li>
+                  <li><i className="fas fa-star"></i></li>
+                  <li><i className="fas fa-star"></i></li>
+                  <li><i className="fas fa-star"></i></li>
+                  <li><i className="far fa-star"></i></li>
+                </ul>
+                <h3>Percy Sopla </h3>
+                <span className="designation">Paciente</span>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="slide-item">
+          <div className="testimonial-block-one">
+            <div className="inner-box">
+              <div className="icon-box"><i className="icon-23"></i></div>
+              <p>"Durante mi atención me dieron la tranquilidad y seguridad de que estaba en buenas manos. 
+                Confío en las manos y profesionalismo  del dr. Tecco y la Nutriciónista Becerril."</p>
+              <div className="author-box">
+                <figure className="author-thumb"><img src="assets/images/resource/testimonial-mujer.png" alt="" /></figure>
+                <ul className="rating clearfix">
+                  <li><i className="fas fa-star"></i></li>
+                  <li><i className="fas fa-star"></i></li>
+                  <li><i className="fas fa-star"></i></li>
+                  <li><i className="fas fa-star"></i></li>
+                  <li><i className="fas fa-star"></i></li>
+                </ul>
+                <h3>Nely Sopla</h3>
                 <span className="designation">Paciente</span>
               </div>
             </div>

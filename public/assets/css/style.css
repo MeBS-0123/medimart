@@ -2036,10 +2036,7 @@ button.ltr {
 }
 
 .footer-bottom .bottom-inner{
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  text-align: center;
 }
 
 .footer-bottom .bottom-inner .footer-nav li{

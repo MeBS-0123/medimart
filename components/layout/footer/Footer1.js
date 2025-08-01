@@ -16,7 +16,7 @@ export default function Footer1() {
               <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                 <div className="footer-widget logo-widget">
                   <figure className="footer-logo"><Link href="/"><img src="assets/images/logoB.png" alt="" /></Link></figure>
-                  <p>Lorem ipsum dolor sit amet constetur adipiscing elit. Etiam eu turpis mostie dictum est a, mattis tellus.</p>
+                  <p>En Nutrimed Perú nos dedicamos a cuidar tu salud y bienestar a través de un enfoque integral en medicina y atención personalizada.</p>
                   <ul className="social-links clearfix">
                     <li><Link href="https://www.instagram.com/nutrimedrodriguezde?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i className="icon-4"></i></Link></li>
                     <li><Link href="/"><i className="fab fa-youtube"></i></Link></li>
@@ -101,16 +101,7 @@ export default function Footer1() {
         <div className="footer-bottom">
           <div className="auto-container">
             <div className="bottom-inner">
-              <ul className="footer-nav clearfix">
-                <li><Link href="/">Privacy Policy</Link></li>
-                <li><Link href="/">Terms of Use</Link></li>
-                <li><Link href="/">Sales and Refunds</Link></li>
-                <li><Link href="/">Legal</Link></li>
-                <li><Link href="/">Site Map</Link></li>
-              </ul>
-              <div className="copyright">
-                <p>&copy; 2024 All Rights Reserved</p>
-              </div>
+              <p>&copy; 2024 All Rights Reserved</p>
             </div>
           </div>
         </div>

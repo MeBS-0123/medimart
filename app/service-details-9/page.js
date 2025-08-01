@@ -107,7 +107,7 @@ export default function service() {
                     </section>
                     {/* service-section end */}
                     {/* subscibe */}
-                    <section className="subscribe-section">
+                    {/* <section className="subscribe-section">
                         <div className="auto-container">
                             <div className="inner-container">
                                 <div className="row align-items-center">
@@ -135,7 +135,7 @@ export default function service() {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
                     {/* subscibe end */}
                 </div>
 

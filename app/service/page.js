@@ -24,7 +24,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="ESPECIALIDADES">
+            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Especialidades">
                 <div>
                     {/* service-style-two */}
                     <section className="service-section sec-pad-2">
@@ -228,7 +228,7 @@ export default function Home() {
                     {/* service-style-two end */}
 
                     {/* subscibe */}
-                    <section className="subscribe-section">
+                    {/* <section className="subscribe-section">
                         <div className="auto-container">
                             <div className="inner-container">
                                 <div className="row align-items-center">
@@ -256,7 +256,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
                     {/* subscibe end */}
                 </div>
             </Layout>

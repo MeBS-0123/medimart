@@ -25,7 +25,7 @@ export default function Home() {
   }
   return (
     <>
-      <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="About Us">
+      <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Nosotros">
         {/* about-section */}
         <section className="about-style-two pt_120 pb_120">
           <div className="pattern-layer">
@@ -187,7 +187,7 @@ export default function Home() {
 
 
         {/* testimonial-section */}
-        <section className="testimonial-style-two p_relative">
+        {/* <section className="testimonial-style-two p_relative">
           <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/shape/shape-19.png)' }}></div>
           <div className="auto-container">
             <div className="row align-items-center">
@@ -207,24 +207,20 @@ export default function Home() {
                     <span className="sub-title" style={{ color: "#139ECD !important" }}>TESTIMONIOS</span>
                     <h2>Lo que dicen nuestros pacientes</h2>
                   </div>
-                  <div className="content-box">
+                  <div className="content-box"> */}
                     {/*Theme Carousel*/}
-                    <TestimonialSlider3 />
-                  </div>
+                    {/* <TestimonialSlider3 /> */}
+                  {/* </div>
                 </div>
 
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* testimonial-section */}
 
-
-
-
-
         {/* team-section-style-two */}
-        <section className="team-section sec-pad centred bg-color-1">
+        {/* <section className="team-section sec-pad centred bg-color-1">
           <div className="shape">
             <div className="shape-1 float-bob-y" style={{ backgroundImage: "url(assets/images/shape/shape-15.png)" }}></div>
             <div className="shape-2"></div>
@@ -314,10 +310,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* team-section-style-two end */}
         {/* subscibe */}
-        <section className="subscribe-section bg-color-1">
+        {/* <section className="subscribe-section bg-color-1">
           <div className="auto-container">
             <div className="inner-container">
               <div className="row align-items-center">
@@ -345,7 +341,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* subscibe end */}
 
 

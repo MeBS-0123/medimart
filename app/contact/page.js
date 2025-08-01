@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Contuct Us">
+            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Contáctanos">
                 <div>
                     {/* Contact Form Section */}
                     <section className="contact-info-section pt_120">
@@ -13,28 +13,28 @@ export default function Home() {
                             <div className="row clearfix">
                                 <div className="col-lg-4 col-md-6 col-sm-12 info-column">
                                     <div className="info-block-one">
-                                        <h3>Quick Contact</h3>
+                                        <h3>Contactános Rápido</h3>
                                         <div className="inner-box">
                                             <div className="icon-box"><i className="icon-2"></i></div>
-                                            <p>Main Office: <br /><Link href="tel:23345678901">(+233)456-789-01</Link>, <Link href="tel:+1045678901">+10456-789-01</Link></p>
+                                            <p>Número Telefónico: <br /><Link href="tel:23345678901">+51 974 603 071</Link> </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-12 info-column">
                                     <div className="info-block-one">
-                                        <h3>Email Address</h3>
+                                        <h3>Correo Electrónico</h3>
                                         <div className="inner-box">
                                             <div className="icon-box"><i className="icon-26"></i></div>
-                                            <p>Mail: <br /><Link href="mailto:info@example.com">info@example.com</Link></p>
+                                            <p>Correo: <br /><Link href="mailto:info@example.com">nutrimed@gmail.com</Link></p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-12 info-column">
                                     <div className="info-block-one">
-                                        <h3>Mailing Address</h3>
+                                        <h3>Dirección</h3>
                                         <div className="inner-box">
                                             <div className="icon-box"><img src="assets/images/icons/icon-2.png" alt="" /></div>
-                                            <p>3891 Ranchview Dr. Richardson, <br />California 62639</p>
+                                            <p>Jr. El Porvenir N° 200, Rodríguez<br /> de Mendoza, Amazonas </p>
                                         </div>
                                     </div>
                                 </div>
@@ -49,30 +49,30 @@ export default function Home() {
                                 <div className="col-lg-8 col-md-12 col-sm-12 form-column">
                                     <div className="form-inner mr_40">
                                         <div className="sec-title mb_50">
-                                            <h2>Send a Message</h2>
+                                            <h2>Envíanos un Mensaje</h2>
                                         </div>
                                         <form method="post" action="sendemail.php" id="contact-form" className="default-form">
                                             <div className="row clearfix">
                                                 <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                                                    <input type="text" name="username" placeholder="First Name" required />
+                                                    <input type="text" name="username" placeholder="Nombres" required />
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                                                    <input type="text" name="lname" placeholder="Last Name" required />
+                                                    <input type="text" name="lname" placeholder="Apellido" required />
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                                                    <input type="email" name="email" placeholder="Your email" required />
+                                                    <input type="email" name="email" placeholder="Tu correo" required />
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                                                    <input type="text" name="phone" required placeholder="Phone" />
+                                                    <input type="text" name="phone" required placeholder="Teléfono" />
                                                 </div>
                                                 <div className="col-lg-12 col-md-12 col-sm-12 form-group">
-                                                    <input type="text" name="subject" required placeholder="Subject" />
+                                                    <input type="text" name="subject" required placeholder="Asunto" />
                                                 </div>
                                                 <div className="col-lg-12 col-md-12 col-sm-12 form-group">
-                                                    <textarea name="message" placeholder="Message"></textarea>
+                                                    <textarea name="message" placeholder="Mensaje"></textarea>
                                                 </div>
                                                 <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
-                                                    <button className="theme-btn btn-one" type="submit" name="submit-form"><span>Send Message</span></button>
+                                                    <button className="theme-btn btn-one" type="submit" name="submit-form"><span>Enviar Mensaje</span></button>
                                                 </div>
                                             </div>
                                         </form>
@@ -87,44 +87,19 @@ export default function Home() {
                     {/* Contact Form Section2 End */}
 
                     {/* Google Map Section */}
-                    <section className="google-map-section">
-                        {/*Map Outer*/}
-                        <div className="map-inner">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.6895046810805!2d-122.52642526124438!3d38.00014098339506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085976736097a2f%3A0xbe014d20e6e22654!2sSan Rafael%2C California%2C Hoa Kỳ!5e0!3m2!1svi!2s!4v1678975266976!5m2!1svi!2s" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                    <section className="google-map-section" style={{ padding: 0, margin: 0 }}>
+                        <div className="map-inner" style={{ width: "100%" }}>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15839.012933734128!2d-77.4851862!3d-6.395378999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b1370afe50cfc3%3A0x774c1043be43c603!2sCLINICA%20NUTRIMED%20PERU%20EIRL!5e0!3m2!1ses!2spe!4v1754062233969!5m2!1ses!2spe"
+                                style={{ border: 0, width: "100%", height: "570px" }}
+                                allowFullScreen
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                            />
                         </div>
                     </section>
+
                     {/* Google Map Section End */}
-                     {/* subscibe */}
-                <section className="subscribe-section">
-                <div className="auto-container">
-                    <div className="inner-container">
-                    <div className="row align-items-center">
-                        <div className="col-lg-6 col-md-12 col-sm-12 text-column">
-                        <div className="text-box">
-                            <h2><span>Subscribe</span> for the exclusive updates!</h2>
-                        </div>
-                        </div>
-                        <div className="col-lg-6 col-md-12 col-sm-12 form-column">
-                        <div className="form-inner">
-                            <form method="post" action="contact">
-                            <div className="form-group">
-                                <input type="email" name="email" placeholder="Enter Your Email Address" required />
-                                <button type="submit" className="theme-btn btn-one"><span>Subscribe Now</span></button>
-                            </div>
-                            <div className="form-group">
-                                <div className="check-box">
-                                <input className="check" type="checkbox" id="checkbox1" />
-                                <label htmlFor="checkbox1">I agree to the <Link href="/">Privacy Policy.</Link></label>
-                                </div>
-                            </div>
-                            </form>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </section>
-                  {/* subscibe end */}
                 </div>
 
             </Layout>
