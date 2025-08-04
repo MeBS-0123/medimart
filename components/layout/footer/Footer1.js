@@ -5,8 +5,8 @@ export default function Footer1() {
     <>
       <footer className="main-footer" id="footer">
         <div className="pattern-layer">
-          <div className="pattern-1" style={{ backgroundImage: "url(assets/images/shape/shape-23.png)" }}></div>
-          <div className="pattern-2" style={{ backgroundImage: "url(assets/images/shape/shape-24.png)" }}></div>
+          <div className="pattern-1" style={{ backgroundImage: "url(/assets/images/shape/shape-23.png)" }}></div>
+          <div className="pattern-2" style={{ backgroundImage: "url(/assets/images/shape/shape-24.png)" }}></div>
           <div className="pattern-3" style={{ backgroundImage: "url(assets/images/shape/shape-25.png)" }}></div>
           <div className="pattern-4"></div>
         </div>
@@ -15,7 +15,7 @@ export default function Footer1() {
             <div className="row clearfix">
               <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                 <div className="footer-widget logo-widget">
-                  <figure className="footer-logo"><Link href="/"><img src="assets/images/logoB.png" alt="" /></Link></figure>
+                  <figure className="footer-logo"><Link href="/"><img src="/assets/images/logoB.png" alt="" /></Link></figure>
                   <p>En Nutrimed Perú nos dedicamos a cuidar tu salud y bienestar a través de un enfoque integral en medicina y atención personalizada.</p>
                   <ul className="social-links clearfix">
                     <li><Link href="https://www.instagram.com/nutrimedrodriguezde?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i className="icon-4"></i></Link></li>
@@ -101,7 +101,7 @@ export default function Footer1() {
         <div className="footer-bottom">
           <div className="auto-container">
             <div className="bottom-inner">
-              <p>&copy; 2024 All Rights Reserved</p>
+              <p>&copy; 2025 Todos los Derechos Reservados</p>
             </div>
           </div>
         </div>

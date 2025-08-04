@@ -15,17 +15,17 @@ export default function Menu() {
             <ul className="navigation clearfix">
                 <li className="dropdown"><Link href="/">Inicio</Link>
                 </li>
-                <li><Link href="/about-us">Nosotros</Link></li>
-                <li className="dropdown"><Link href="/service">Especialidades</Link>
+                <li><Link href="/sobre-nosotros">Nosotros</Link></li>
+                <li className="dropdown"><Link href="/especialidades">Especialidades</Link>
                 </li>
-                <li className="dropdown"><Link href="/">Team</Link>
+                {/* <li className="dropdown"><Link href="/">Team</Link>
                     <ul>
                         <li><Link href="/team">Our Team</Link></li>
                         <li><Link href="/team-details">Team Details</Link></li>
                     </ul>
-                </li>
+                </li> */}
                 {/* Pages */}
-                <li className="dropdown"><Link href="/">Pages</Link>
+                {/* <li className="dropdown"><Link href="/">Pages</Link>
                     <ul>
                         <li className="dropdown"><Link href="/">Blog</Link>
                             <ul>
@@ -41,14 +41,16 @@ export default function Menu() {
                         <li><Link href="/faq">Faq's</Link></li>
                         <li><Link href="/gallery">Gallery</Link></li>
                         <li><Link href="/appointment">Make Appointment</Link></li>
-                        <li><Link href="/error-page">Page Not Found</Link></li>
+                        <li><Link href="/error-page">Page Not Found</Link></li> */}
 
 
-                        {/* ... (similarly for other page items) */}
-                    </ul>
-                </li>
+                {/* ... (similarly for other page items) */}
+                {/* </ul> */}
+                {/* </li> */}
                 {/* Contact */}
-                <li><Link href="/contact">Contáctanos</Link></li>
+                <li><Link href="/contactanos">Contáctanos</Link></li>
+
+                <li><Link href="/cursos">Cursos</Link></li>
             </ul>
 
         </>

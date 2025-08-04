@@ -32,7 +32,7 @@ export default function  Header2({ scroll, isMobileMenu, handleMobileMenu, isSid
                     <div className="outer-container">
                         <div className="outer-box">
                             <div className="logo-box">
-                                <figure className="logo"><Link href="/"><img src="assets/images/logo.png" alt="" /></Link></figure>
+                                <figure className="logo"><Link href="/"><img src="/assets/images/logo.png" alt="" /></Link></figure>
                             </div>
                             <div className="menu-area">
                                 {/* Mobile Navigation Toggler */}
@@ -52,12 +52,12 @@ export default function  Header2({ scroll, isMobileMenu, handleMobileMenu, isSid
                             {/* Menu Right Content */}
                             <ul className="menu-right-content">
 
-                                <li className="search-box-outer search-toggler" onClick={handlePopup}>
+                                {/* <li className="search-box-outer search-toggler" onClick={handlePopup}>
                                     <i className="icon-27"></i>
                                 </li>
                                 <li className="nav-btn nav-toggler navSidebar-button clearfix" onClick={handleSidebar}>
                                     <i className="icon-28"></i>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ export default function  Header2({ scroll, isMobileMenu, handleMobileMenu, isSid
                     <div className="auto-container">
                         <div className="outer-box">
                             <div className="logo-box">
-                                <figure className="logo"><Link href="/"><img src="assets/images/logo.png" alt="" /></Link></figure>
+                                <figure className="logo"><Link href="/"><img src="/assets/images/logo.png" alt="" /></Link></figure>
                             </div>
 
                             <nav className="main-menu navbar-expand-md navbar-light clearfix">
@@ -78,12 +78,12 @@ export default function  Header2({ scroll, isMobileMenu, handleMobileMenu, isSid
                             </nav>
                             <ul className="menu-right-content">
 
-                                <li className="search-box-outer search-toggler" onClick={handlePopup}>
+                                {/* <li className="search-box-outer search-toggler" onClick={handlePopup}>
                                     <i className="icon-27"></i>
                                 </li>
                                 <li className="nav-btn nav-toggler navSidebar-button clearfix" onClick={handleSidebar}>
                                     <i className="icon-28"></i>
-                                </li>
+                                </li> */}
                             </ul>
 
                         </div>

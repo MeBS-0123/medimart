@@ -20,7 +20,7 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                         <div className="sidebar-info-contents">
                             <div className="content-inner">
                                 <div className="logo">
-                                    <Link href="/"><img src="assets/images/logo.png" alt="" /></Link>
+                                    <Link href="/"><img src="/assets/images/logo.png" alt="" /></Link>
                                 </div>
                                 <div className="content-box">
                                     <h4>Sobre Nosotros</h4>
@@ -33,7 +33,7 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                                     <ul>
                                         <li>Jr. el Porvenir N° 200, Rodríguez de Mendoza</li>
                                         <li><Link href="tel:+51 974603071">+51 974603071</Link></li>
-                                        <li><Link href="mailto:info@example.com">info@example.com</Link></li>
+                                        <li><Link href="mailto:info@example.com">nutrimed@gmail.com</Link></li>
                                     </ul>
                                 </div>
                                 <ul className="social-box">

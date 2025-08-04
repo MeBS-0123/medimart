@@ -8,10 +8,10 @@ export default function Video() {
     <>
       <section className="video-section p_relative">
         <div className="bg-layer parallax-bg" data-parallax='{"y": 100}'></div>
-        <figure className="image-layer"><img src="assets/images/resource/video-1.png" alt="" /></figure>
+        <figure className="image-layer"><img src="/assets/images/resource/video-1.png" alt="" /></figure>
         <div className="auto-container">
           <div className="inner-box">
-            <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-17B.png)' }}></div>
+            <div className="shape" style={{ backgroundImage: 'url(/assets/images/shape/shape-17B.png)' }}></div>
             <div className="video-btn">
               <a onClick={() => setOpen(true)}><i className="fas fa-play"></i>
                 <span className="border-animation border-1"></span>
@@ -21,7 +21,7 @@ export default function Video() {
             </div>
             <h2>Conoce Nutrimed:  <br />Tu Clínica de Confianza</h2>
             <div className="btn-box">
-              <Link href="/#" className="theme-btn btn-one"><span>Conócenos</span></Link>
+              <Link href="/sobre-nosotros" className="theme-btn btn-one"><span>Conócenos</span></Link>
             </div>
           </div>
         </div>
