@@ -2,6 +2,8 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useState } from 'react'
+import AgendarCitaButton from "@/components/layout/AgendarCitaButton"
+
 export default function service() {
     const [isActive, setIsActive] = useState({
         status: false,
@@ -22,7 +24,15 @@ export default function service() {
     }
     return (
         <>
-            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Service-Details">
+            <Layout
+                headerStyle={2}
+                footerStyle={1}
+                breadcrumb={[
+                    { name: "Inicio", href: "/" },
+                    { name: "Especialidades", href: "/especialidades" },
+                    { name: "Neumología" }
+                ]}
+            >
                 <div>
                     {/* service-section */}
                     <section className="service-details pt_120 pb_110">
@@ -160,6 +170,8 @@ export default function service() {
                 </div>
 
             </Layout>
+
+            <AgendarCitaButton especialidad="Neumología"/>
         </>
     )
 }

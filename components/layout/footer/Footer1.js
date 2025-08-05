@@ -7,7 +7,7 @@ export default function Footer1() {
         <div className="pattern-layer">
           <div className="pattern-1" style={{ backgroundImage: "url(/assets/images/shape/shape-23.png)" }}></div>
           <div className="pattern-2" style={{ backgroundImage: "url(/assets/images/shape/shape-24.png)" }}></div>
-          <div className="pattern-3" style={{ backgroundImage: "url(assets/images/shape/shape-25.png)" }}></div>
+          <div className="pattern-3" style={{ backgroundImage: "url(/assets/images/shape/shape-25.png)" }}></div>
           <div className="pattern-4"></div>
         </div>
         <div className="widget-section pt_120 pb_100">

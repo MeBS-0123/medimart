@@ -5,8 +5,14 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Cursos">
-                <div>
+            <Layout
+                headerStyle={2}
+                footerStyle={1}
+                breadcrumb={[
+                    { name: "Inicio", href: "/" },
+                    { name: "Cursos" }
+                ]}
+            >                <div>
                     {/* news-style-two */}
                     <section className="news-section sec-pad bg-color-1">
                         <div className="auto-container">

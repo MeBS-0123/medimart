@@ -2,6 +2,7 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { useState } from 'react'
+import AgendarCitaButton from "@/components/layout/AgendarCitaButton"
 
 export default function service() {
     const [isActive, setIsActive] = useState({
@@ -23,7 +24,15 @@ export default function service() {
     }
     return (
         <>
-            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Detalles de las Especialidades">
+            <Layout
+                headerStyle={2}
+                footerStyle={1}
+                breadcrumb={[
+                    { name: "Inicio", href: "/" },
+                    { name: "Especialidades", href: "/especialidades" },
+                    { name: "Cardiología" }
+                ]}
+            >
                 <div>
                     {/* service-section */}
                     <section className="service-details pt_120 pb_110">
@@ -117,37 +126,6 @@ export default function service() {
                                                         </ul>
                                                     </div>
                                                 </div>
-                                                
-                                                {/* <div style={{
-                                                    position: 'fixed',
-                                                    bottom: '20px',
-                                                    right: '80px', // Ajusta si el botón azul está muy cerca
-                                                    zIndex: 1000,
-                                                }}>
-                                                    <a
-                                                        href="https://wa.me/51974603071?text=Hola%20Nutrimed%20%F0%9F%98%8A%2C%20deseo%20agendar%20una%20cita%20para%20consulta%20en%20la%20especialidad%20de%20cardiolog%C3%ADa%20%E2%9D%A4%EF%B8%8F.%20%C2%BFPodr%C3%ADan%20indicarme%20la%20disponibilidad%2C%20por%20favor%3F%20%F0%9F%99%8F%20Gracias."
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        style={{
-                                                            padding: '10px 14px',
-                                                            borderRadius: '40px',
-                                                            backgroundColor: '#25D366',
-                                                            color: 'white',
-                                                            display: 'flex',
-                                                            alignItems: 'center',
-                                                            gap: '8px',
-                                                            fontSize: '14px',
-                                                            fontWeight: '500',
-                                                            boxShadow: '0 4px 10px rgba(0,0,0,0.25)',
-                                                            textDecoration: 'none',
-                                                            whiteSpace: 'nowrap',
-                                                        }}
-                                                    >
-                                                        <i className="fab fa-whatsapp" style={{ fontSize: '16px' }}></i>
-                                                        <span>Reservar</span>
-                                                    </a>
-                                                </div> */}
-
                                             </div>
                                         </div>
                                     </div>
@@ -158,38 +136,9 @@ export default function service() {
                         </div>
                     </section>
                     {/* service-section end */}
-                    {/* subscibe */}
-                    {/* <section className="subscribe-section">
-                        <div className="auto-container">
-                            <div className="inner-container">
-                                <div className="row align-items-center">
-                                    <div className="col-lg-6 col-md-12 col-sm-12 text-column">
-                                        <div className="text-box">
-                                            <h2><span>Subscribe</span> for the exclusive updates!</h2>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6 col-md-12 col-sm-12 form-column">
-                                        <div className="form-inner">
-                                            <form method="post" action="contact">
-                                                <div className="form-group">
-                                                    <input type="email" name="email" placeholder="Enter Your Email Address" required />
-                                                    <button type="submit" className="theme-btn btn-one"><span>Subscribe Now</span></button>
-                                                </div>
-                                                <div className="form-group">
-                                                    <div className="check-box">
-                                                        <input className="check" type="checkbox" id="checkbox1" />
-                                                        <label htmlFor="checkbox1">I agree to the <Link href="/">Privacy Policy.</Link></label>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section> */}
-                    {/* subscibe end */}
                 </div>
+
+                <AgendarCitaButton especialidad="Cardiología" />
 
             </Layout>
         </>

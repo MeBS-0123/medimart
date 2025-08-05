@@ -5,8 +5,14 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Contáctanos">
-                <div>
+            <Layout
+                headerStyle={2}
+                footerStyle={1}
+                breadcrumb={[
+                    { name: "Inicio", href: "/" },
+                    { name: "Contáctanos" }
+                ]}
+            >                <div>
                     {/* Contact Form Section */}
                     <section className="contact-info-section pt_120">
                         <div className="auto-container">

@@ -24,7 +24,14 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Especialidades">
+            <Layout
+                headerStyle={2}
+                footerStyle={1}
+                breadcrumb={[
+                    { name: "Inicio", href: "/" },
+                    { name: "Especialidades" }
+                ]}
+            >
                 <div>
                     {/* service-style-two */}
                     <section className="service-section sec-pad-2">
@@ -259,7 +266,7 @@ export default function Home() {
                     </section> */}
                     {/* subscibe end */}
                 </div>
-            </Layout>
+            </Layout >
         </>
     )
 }

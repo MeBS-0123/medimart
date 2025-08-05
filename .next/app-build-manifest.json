@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/sobre-nosotros/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/sobre-nosotros/page.js"
+      "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -21,16 +21,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
-    "/especialidades/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/especialidades/page.js"
-    ],
     "/especialidades/cardiologia/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -41,40 +31,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/_not-found/page.js"
     ],
-    "/especialidades/ginecologia/page": [
+    "/sobre-nosotros/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/especialidades/ginecologia/page.js"
+      "static/chunks/app/sobre-nosotros/page.js"
     ],
-    "/especialidades/cirugia-general/page": [
+    "/especialidades/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/especialidades/cirugia-general/page.js"
-    ],
-    "/especialidades/neumologia/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/especialidades/neumologia/page.js"
-    ],
-    "/especialidades/nutricion/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/especialidades/nutricion/page.js"
-    ],
-    "/especialidades/reumatologia/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/especialidades/reumatologia/page.js"
-    ],
-    "/especialidades/traumatologia/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/especialidades/traumatologia/page.js"
-    ],
-    "/especialidades/urologia/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/especialidades/urologia/page.js"
+      "static/chunks/app/especialidades/page.js"
     ],
     "/contactanos/page": [
       "static/chunks/webpack.js",
@@ -90,6 +55,31 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/blog-details/page.js"
+    ],
+    "/especialidades/cirugia-general/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/especialidades/cirugia-general/page.js"
+    ],
+    "/especialidades/ginecologia/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/especialidades/ginecologia/page.js"
+    ],
+    "/especialidades/urologia/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/especialidades/urologia/page.js"
+    ],
+    "/especialidades/neumologia/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/especialidades/neumologia/page.js"
+    ],
+    "/especialidades/reumatologia/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/especialidades/reumatologia/page.js"
     ]
   }
 }

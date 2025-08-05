@@ -18,7 +18,7 @@ export default function Banner() {
               <h2>¡Cuidando tu <span>Salud </span>  y la de tu <span>Familia</span>!</h2>
               <p>Somos tu centro de salud de confianza. En Nutrimed cuidamos de ti con compromiso, calidad y calidez humana.</p>
               <div className="btn-box">
-                <Link href="/service" className="theme-btn btn-two"><span>Explora Nuestros Servicios</span></Link>
+                <Link href="/especialidades" className="theme-btn btn-two"><span>Explora Nuestros Servicios</span></Link>
               </div>
             </div>
           </div>

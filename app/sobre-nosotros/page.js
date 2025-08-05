@@ -25,8 +25,14 @@ export default function Home() {
   }
   return (
     <>
-      <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Nosotros">
-        {/* about-section */}
+      <Layout
+        headerStyle={2}
+        footerStyle={1}
+        breadcrumb={[
+          { name: "Inicio", href: "/" },
+          { name: "Nosotros" }
+        ]}
+      >        {/* about-section */}
         <section className="about-style-two pt_120 pb_120">
           <div className="pattern-layer">
             <div className="pattern-1 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-8.png)" }}></div>
@@ -208,9 +214,9 @@ export default function Home() {
                     <h2>Lo que dicen nuestros pacientes</h2>
                   </div>
                   <div className="content-box"> */}
-                    {/*Theme Carousel*/}
-                    {/* <TestimonialSlider3 /> */}
-                  {/* </div>
+        {/*Theme Carousel*/}
+        {/* <TestimonialSlider3 /> */}
+        {/* </div>
                 </div>
 
               </div>

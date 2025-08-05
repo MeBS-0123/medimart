@@ -1,7 +1,10 @@
 {
-  "/especialidades/page": "app/especialidades/page.js",
-  "/sobre-nosotros/page": "app/sobre-nosotros/page.js",
+  "/especialidades/cirugia-general/page": "app/especialidades/cirugia-general/page.js",
   "/especialidades/ginecologia/page": "app/especialidades/ginecologia/page.js",
-  "/cursos/page": "app/cursos/page.js",
-  "/contactanos/page": "app/contactanos/page.js"
+  "/especialidades/urologia/page": "app/especialidades/urologia/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/especialidades/neumologia/page": "app/especialidades/neumologia/page.js",
+  "/especialidades/reumatologia/page": "app/especialidades/reumatologia/page.js",
+  "/sobre-nosotros/page": "app/sobre-nosotros/page.js",
+  "/especialidades/page": "app/especialidades/page.js"
 }
