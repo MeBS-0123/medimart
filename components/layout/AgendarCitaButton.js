@@ -3,7 +3,7 @@
 export default function AgendarCitaButton({ especialidad }) {
     const handleClick = () => {
         const mensaje = `¡Hola! Me gustaría agendar una cita para la especialidad de ${especialidad}. ¿Qué fechas tienen disponibles?\n\nMi nombre es: `;
-        const url = `https://wa.me/51929802396?text=${encodeURIComponent(mensaje)}`;
+        const url = `https://wa.me/51966681511?text=${encodeURIComponent(mensaje)}`;
         window.open(url, '_blank');
     }
 

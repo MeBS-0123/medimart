@@ -70,9 +70,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                     </div>
                   </nav>
                 </div>
-                <div className="btn-box">
+                {/* <div className="btn-box">
                   <Link href="/" className="theme-btn btn-one"><span>Reserva tu cita</span></Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -91,12 +91,12 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                   <Menu />
                 </div>
               </nav>
-              <ul className="menu-right-content">
+              {/* <ul className="menu-right-content">
 
                 <div className="btn-box">
                   <Link href="/" className="theme-btn btn-one"><span>Reserva tu cita</span></Link>
                 </div>
-              </ul>
+              </ul> */}
 
             </div>
           </div>
