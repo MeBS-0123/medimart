@@ -1,4 +1,4 @@
-// File: C:\Users\romul\OneDrive\Documentos\Nutrimed Page\medimart\app\sobre-nosotros\page.js
+// File: /home/romulo/Documentos/Pagina Nutrimed/medimart/app/sobre-nosotros/page.js
 import * as entry from '../../../../app/sobre-nosotros/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

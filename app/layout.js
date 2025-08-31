@@ -8,6 +8,8 @@ import "swiper/css/pagination"
 import 'swiper/css/free-mode';
 import { poppins } from '@/lib/font'
 import Layout from "@/components/layout/Layout"; 
+/* globals.css */
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 export const metadata = {
     title: 'Clínica Nutrimed',
